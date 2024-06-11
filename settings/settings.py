@@ -179,6 +179,7 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:4200',
+    'http://172.22.229.186'
 ]
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
