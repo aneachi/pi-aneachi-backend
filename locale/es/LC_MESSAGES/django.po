@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-01 14:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\config\settings\base.py:130
+msgid "Spanish"
+msgstr "Español"
+
+#: .\config\settings\base.py:131
+msgid "English"
+msgstr "Inglés"
+
+#: .\main\templates\base.html:16
+msgid "Tienda Virtual"
+msgstr "Tienda Virtual"
+
+#: .\main\templates\base.html:24
+msgid "Perfil"
+msgstr ""
+
+#: .\main\templates\base.html:25
+msgid "Carrito"
+msgstr ""
+
+#: .\main\templates\base.html:26
+msgid "Cerrar Sesión"
+msgstr ""
+
+#: .\main\templates\base.html:32
+#: .\main\templates\tienda\registro\registro.html:7
+msgid "Registrarse"
+msgstr ""
+
+#: .\main\templates\base.html:33 .\main\templates\tienda\login\login.html:7
+msgid "Iniciar Sesión"
+msgstr ""
+
+#: .\main\templates\base.html:38
+msgid "Bienvenido "
+msgstr ""
+
+#: .\main\templates\base.html:40
+msgid "Bienvenido, registrate para poder hacer operaciones"
+msgstr ""
+
+#: .\main\templates\main\index.html:5
+msgid "Aquí empieza todo"
+msgstr "Aquí empieza todo"
+
+#: .\main\templates\main\index.html:8
+msgid "Gestión de productos"
+msgstr ""
+
+#: .\main\templates\main\index.html:9
+msgid "Informes"
+msgstr ""
+
+#: .\main\templates\main\index.html:10
+msgid "Realizar compra"
+msgstr ""
+
+#: .\main\templates\tienda\admin\crear_producto.html:5
+msgid "Añadir producto"
+msgstr ""
+
+#: .\main\templates\tienda\admin\crear_producto.html:11
+#: .\main\templates\tienda\admin\editar_producto.html:10
+#: .\main\templates\tienda\admin\listado_productos.html:45
+#: .\main\templates\tienda\cliente\cambiar_password.html:10
+#: .\main\templates\tienda\cliente\comentario_compra.html:10
+#: .\main\templates\tienda\cliente\crear_direccion.html:10
+#: .\main\templates\tienda\cliente\crear_tarjeta.html:10
+#: .\main\templates\tienda\cliente\datos_cliente.html:120
+#: .\main\templates\tienda\cliente\editar_cliente.html:10
+#: .\main\templates\tienda\cliente\editar_direccion.html:10
+#: .\main\templates\tienda\cliente\editar_tarjeta.html:10
+#: .\main\templates\tienda\compras\checkout.html:51
+#: .\main\templates\tienda\compras\listado_compra.html:39
+msgid "Volver"
+msgstr ""
+
+#: .\main\templates\tienda\admin\editar_producto.html:4
+msgid "Editar producto"
+msgstr ""
+
+#: .\main\templates\tienda\admin\listado_productos.html:4
+msgid "Listado de productos"
+msgstr ""
+
+#: .\main\templates\tienda\admin\listado_productos.html:16
+#: .\main\templates\tienda\compras\listado_compra.html:15
+msgid "Nombre"
+msgstr ""
+
+#: .\main\templates\tienda\admin\listado_productos.html:17
+#: .\main\templates\tienda\cliente\datos_cliente.html:56
+#: .\main\templates\tienda\compras\listado_compra.html:16
+msgid "Modelo"
+msgstr ""
+
+#: .\main\templates\tienda\admin\listado_productos.html:18
+#: .\main\templates\tienda\cliente\datos_cliente.html:58
+#: .\main\templates\tienda\compras\listado_compra.html:17
+msgid "Precio"
+msgstr ""
+
+#: .\main\templates\tienda\admin\listado_productos.html:19
+#: .\main\templates\tienda\cliente\datos_cliente.html:57
+#: .\main\templates\tienda\compras\listado_compra.html:18
+msgid "Marca"
+msgstr ""
+
+#: .\main\templates\tienda\admin\listado_productos.html:20
+#: .\main\templates\tienda\cliente\datos_cliente.html:59
+#: .\main\templates\tienda\compras\listado_compra.html:19
+msgid "Unidades"
+msgstr ""
+
+#: .\main\templates\tienda\admin\listado_productos.html:36
+#: .\main\templates\tienda\cliente\datos_cliente.html:23
+#: .\main\templates\tienda\cliente\datos_cliente.html:39
+msgid "Editar"
+msgstr ""
+
+#: .\main\templates\tienda\admin\listado_productos.html:37
+msgid "Borrar"
+msgstr ""
+
+#: .\main\templates\tienda\admin\listado_productos.html:44
+msgid "Añadir un producto"
+msgstr ""
+
+#: .\main\templates\tienda\admin\producto_confirm_delete.html:9
+#: .\main\templates\tienda\login\login.html:9
+#: .\main\templates\tienda\registro\registro.html:9
+msgid "Cancelar"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\cambiar_password.html:4
+#: .\main\templates\tienda\cliente\datos_cliente.html:9
+#: .\main\templates\tienda\cliente\editar_cliente.html:4
+msgid "Editar cliente"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\comentario_compra.html:4
+msgid "Agregar Comentario"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\crear_direccion.html:4
+#: .\main\templates\tienda\cliente\datos_cliente.html:33
+msgid "Añadir dirección"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\crear_tarjeta.html:4
+#: .\main\templates\tienda\cliente\datos_cliente.html:18
+msgid "Añadir tarjeta"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:5
+msgid "Perfil de "
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:8
+msgid "Nombre de usuario:"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:10
+msgid "Contraseña"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:11
+msgid "Cambiar contraseña"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:12
+msgid "Saldo"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:17
+msgid "Tarjetas"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:32
+msgid "Direcciones"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:49
+msgid "Listado de tus compras"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:55
+#: .\main\templates\tienda\cliente\datos_cliente.html:92
+msgid "Producto"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:60
+#: .\main\templates\tienda\cliente\datos_cliente.html:91
+msgid "Fecha"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:75
+msgid "Comentar"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:83
+msgid "Listado de tus comentarios"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:89
+msgid "Comentario"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\datos_cliente.html:90
+msgid "Valoracion"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\editar_direccion.html:4
+msgid "Editar dirección"
+msgstr ""
+
+#: .\main\templates\tienda\cliente\editar_tarjeta.html:4
+msgid "Editar tarjeta"
+msgstr ""
+
+#: .\main\templates\tienda\compras\checkout.html:4
+msgid "Compra"
+msgstr ""
+
+#: .\main\templates\tienda\compras\checkout.html:19
+#: .\main\templates\tienda\compras\listado_compra.html:34
+msgid "Comprar"
+msgstr ""
+
+#: .\main\templates\tienda\compras\checkout.html:22
+msgid "Comentarios"
+msgstr ""

@@ -1,0 +1,17 @@
+Django
+djangorestframework
+serializers
+django-filter
+django-environ
+djangorestframework-simplejwt
+django-cors-headers
+Pillow
+drf-extra-fields==3.7.0
+
+#Postgres Requirement
+# sudo apt install python3-dev libpq-dev
+#development
+#psycopg2-binary
+#production ready
+# psycopg2
+# gunicorn

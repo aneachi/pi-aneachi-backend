@@ -1,0 +1,16 @@
+{
+    "clientName": "Thunder Client",
+    "environmentName": "(Local Env)",
+    "environmentId": "5a8757ad-62d6-4bb4-be0f-43f9328ecbe0",
+    "dateExported": "2024-04-24T06:34:52.517Z",
+    "version": "1.2",
+    "global": true,
+    "local": true,
+    "variables": [
+        {
+            "name": "local_url",
+            "value": "http://127.0.0.1:8000/api"
+        }
+    ],
+    "ref": "I1PFdAJ6RRBlcKYuUVu5nqIg-Bl84ZBK0int7SxKmm0sP9YvAFgPmHYYoIOqf4-l"
+}

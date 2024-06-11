@@ -1,0 +1,294 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "PublicArt",
+    "collectionId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+    "dateExported": "2024-04-24T06:34:28.178Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "34974d34-ccd9-41a8-9fd2-cd61719d28f9",
+            "name": "Usuarios",
+            "containerId": "",
+            "created": "2024-04-24T06:24:40.374Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "d7e5a8b5-cf8c-4ad2-866f-40d030498ee0",
+            "name": "Estilos",
+            "containerId": "",
+            "created": "2024-04-24T06:30:01.526Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "4f04fc12-67d3-433f-b2c6-24455fb5bbaa",
+            "name": "Tecnicas",
+            "containerId": "",
+            "created": "2024-04-24T06:32:41.206Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "9464fada-1303-46a5-8cdd-8789cfb28d57",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "34974d34-ccd9-41a8-9fd2-cd61719d28f9",
+            "name": "postUsuario",
+            "url": "{{local_url}}/usuarios/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-24T06:24:47.910Z",
+            "modified": "2024-04-24T06:26:52.455Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": 1,\n  \"dni\": \"78452135Q\",\n  \"foto_perfil\": \"foto.jpg\",\n  \"direccion\": \"Mi casa\",\n  \"biografia\": \"Hola Mundo\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3ebaa106-4199-46a1-9d7e-0c55f9774218",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "d7e5a8b5-cf8c-4ad2-866f-40d030498ee0",
+            "name": "postEstilos",
+            "url": "{{local_url}}/estilos/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-24T06:30:01.526Z",
+            "modified": "2024-04-24T06:30:40.309Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcion\": \"Impresionismo\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "726c8f67-8156-44a4-bf85-f3ded1cef56c",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "4f04fc12-67d3-433f-b2c6-24455fb5bbaa",
+            "name": "postTecnicas",
+            "url": "{{local_url}}/tecnicas/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-24T06:32:41.206Z",
+            "modified": "2024-04-24T06:33:45.406Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcion\": \"Pintura\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "467ff5a8-c4b7-44eb-9a24-b5a0b25dfd83",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "34974d34-ccd9-41a8-9fd2-cd61719d28f9",
+            "name": "getUsuarios",
+            "url": "{{local_url}}/usuarios/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-24T06:27:05.511Z",
+            "modified": "2024-04-24T06:27:21.741Z",
+            "headers": []
+        },
+        {
+            "_id": "635a0ee5-5ac6-4d18-a0fb-7e0eb6df9d34",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "d7e5a8b5-cf8c-4ad2-866f-40d030498ee0",
+            "name": "getEstilos",
+            "url": "{{local_url}}/estilos/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-24T06:30:01.527Z",
+            "modified": "2024-04-24T06:30:49.381Z",
+            "headers": []
+        },
+        {
+            "_id": "8a01d720-5303-4e6a-ab70-745ff3e28de1",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "4f04fc12-67d3-433f-b2c6-24455fb5bbaa",
+            "name": "getTecnicas",
+            "url": "{{local_url}}/tecnicas/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-24T06:32:41.207Z",
+            "modified": "2024-04-24T06:33:49.438Z",
+            "headers": []
+        },
+        {
+            "_id": "53e4b458-7aef-4933-b000-6f61a91773ef",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "34974d34-ccd9-41a8-9fd2-cd61719d28f9",
+            "name": "getUsuarioId",
+            "url": "{{local_url}}/usuarios/1/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-24T06:27:34.286Z",
+            "modified": "2024-04-24T06:27:43.049Z",
+            "headers": []
+        },
+        {
+            "_id": "693743ed-b86b-48a2-9f98-cf009dbbac41",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "d7e5a8b5-cf8c-4ad2-866f-40d030498ee0",
+            "name": "getEstilosId",
+            "url": "{{local_url}}/estilos/1/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-24T06:30:01.528Z",
+            "modified": "2024-04-24T06:30:52.621Z",
+            "headers": []
+        },
+        {
+            "_id": "af282a71-816b-4ebf-84ac-e4f857cf2cee",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "4f04fc12-67d3-433f-b2c6-24455fb5bbaa",
+            "name": "getTecnicasId",
+            "url": "{{local_url}}/tecnicas/1/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-24T06:32:41.208Z",
+            "modified": "2024-04-24T06:33:53.263Z",
+            "headers": []
+        },
+        {
+            "_id": "e6d5dbec-1c1a-4678-ad7c-1cdb545e6311",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "34974d34-ccd9-41a8-9fd2-cd61719d28f9",
+            "name": "putUsuario",
+            "url": "{{local_url}}/usuarios/1/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-04-24T06:27:54.870Z",
+            "modified": "2024-04-24T06:28:41.591Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": 1,\n  \"dni\": \"78452135Q\",\n  \"foto_perfil\": \"foto.jpg\",\n  \"direccion\": \"Mi casa\",\n  \"biografia\": \"Actulaización con put\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "67ced8a6-c589-4c6b-be30-5f9a6be9ac42",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "d7e5a8b5-cf8c-4ad2-866f-40d030498ee0",
+            "name": "putEstilos",
+            "url": "{{local_url}}/estilos/1/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-04-24T06:30:01.529Z",
+            "modified": "2024-04-24T06:31:11.147Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcion\": \"Actulaización con put\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bcc31caa-0832-4576-9281-14dc1d9ac114",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "4f04fc12-67d3-433f-b2c6-24455fb5bbaa",
+            "name": "putTecnicas",
+            "url": "{{local_url}}/tecnicas/1/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-04-24T06:32:41.209Z",
+            "modified": "2024-04-24T06:33:58.872Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcion\": \"Actulaización con put\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e521d28e-ab52-4e74-b74a-f43041d3d18b",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "34974d34-ccd9-41a8-9fd2-cd61719d28f9",
+            "name": "patchUsuario",
+            "url": "{{local_url}}/usuarios/1/",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2024-04-24T06:28:58.182Z",
+            "modified": "2024-04-24T06:29:24.349Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"direccion\": \"Mi casa con patch\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b7f6236c-5460-4084-9739-c0c1de7e7616",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "d7e5a8b5-cf8c-4ad2-866f-40d030498ee0",
+            "name": "patchEstilos",
+            "url": "{{local_url}}/estilos/1/",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2024-04-24T06:30:01.530Z",
+            "modified": "2024-04-24T06:31:31.892Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcion\": \"Actualización con patch\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e8ced806-1484-4acf-94d4-06db0b68aa73",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "4f04fc12-67d3-433f-b2c6-24455fb5bbaa",
+            "name": "patchTecnicas",
+            "url": "{{local_url}}/tecnicas/1/",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2024-04-24T06:32:41.210Z",
+            "modified": "2024-04-24T06:34:02.420Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcion\": \"Actualización con patch\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3d09bc9c-b6a1-4a72-85d3-6aad92ca963c",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "34974d34-ccd9-41a8-9fd2-cd61719d28f9",
+            "name": "deleteUsuario",
+            "url": "{{local_url}}/usuarios/1/",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-04-24T06:29:35.350Z",
+            "modified": "2024-04-24T06:29:45.687Z",
+            "headers": []
+        },
+        {
+            "_id": "6f104fb3-8e76-48c0-8955-c4ac509b03b6",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "d7e5a8b5-cf8c-4ad2-866f-40d030498ee0",
+            "name": "deleteEstilos",
+            "url": "{{local_url}}/estilos/1/",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-04-24T06:30:01.531Z",
+            "modified": "2024-04-24T06:31:58.500Z",
+            "headers": []
+        },
+        {
+            "_id": "de951ad0-9be2-4363-b7ce-8cc1ca54e7dc",
+            "colId": "0b3b45a5-9977-47ea-a6c0-c73df6cb9db2",
+            "containerId": "4f04fc12-67d3-433f-b2c6-24455fb5bbaa",
+            "name": "deleteTecnicas",
+            "url": "{{local_url}}/tecnicas/1/",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-04-24T06:32:41.211Z",
+            "modified": "2024-04-24T06:34:06.430Z",
+            "headers": []
+        }
+    ],
+    "ref": "3Vr0RzFpUn35y99AnPo7fy5LibEt48088V9jfAwDOnsdLLrWTv7j6TJDQC6xiAgO6lTtusMa5e2O_gixhMJ7ZQ"
+}
