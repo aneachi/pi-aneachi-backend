@@ -25,6 +25,7 @@ env = environ.Env(
 )
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 SETTINGS_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_BASE_DIR = Path(__file__).resolve().parent.parent
 PROJECT_ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 
